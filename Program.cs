@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            CustomTaskAssignManager customTaskAssignManager = new CustomTaskAssignManager();
+            customTaskAssignManager.AssignTask("Complete project report");
+
         }
     }
 }
